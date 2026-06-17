@@ -12,17 +12,6 @@
 
     </head>
     <body>
-        <div class="notes-input-box">
-            <div class="close-btn">
-                <i class="fas fa-times btn-off"></i>
-            </div>
-            <input type="text" class="notes-title" placeholder="Notes Title">
-            <textarea name="" class="notes-big-text" placeholder="Notes Details.."></textarea>
-            <button class="save-notes">Save</button>
-        </div>
-        <!-- <div class="showNotesDeatils">
-
-        </div> -->
         <div class="main-section">
            <aside class="side-manue">
             <div class="logo">
@@ -32,14 +21,13 @@
             <div class="pages-link">
                 <ul class="list-manue">
                     <li><a href="/index.html">Dashboard</a></li>
-                    <li><a href="todo.html">Todo</a></li>
-                    <li><a href="notes.html">Notes</a></li>
-                    <li><a href="Links.html">Analytics</a></li>
-                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="/pages/todo.html">Todo</a></li>
+                    <li><a href="/pages/notes.html">Notes</a></li>
+                    <li><a href="/pages/Links.html">Links</a></li>
+                    <li><a href="/pages/quiz.html">Quiz</a></li>
                 </ul>
             </div>
            </aside>
-            
            <div class="main-div">
             <nav class="navbar">
             <button class="toggle-btn-off"><i class="fa-solid fa-toggle-off"></i> </button>
@@ -54,31 +42,40 @@
              <div class="sape-1 name">
              BK</div>
             </nav>
-            
-            <main class="main-notes">
-               
-              <div class="main-headding-sectio">
-                <div>
-                    <h3>Notes</h3>
-                    <p class="total-notes-lenght">6 notes found</p>
+            <main class="main-quiz">
+                 <div class="main-hadding">
+                <h2>Quiz Hub</h2>
+                <h3>Generate quizzes and practice your skills</h3>
+             </div>
+              <div class="quiz-box">
+                <div class="quiz-box-headding">
+                    <div class="icon-bg" style="margin-left: 10px;">
+                         <i class="fa-solid fa-graduation-cap" style="font-size: 40px;"></i>
+                    </div>
+                    <h2>What did you learn today?</h2>
                 </div>
-                <div>
-                    <button class="addNotesbtn">New Notes</button>
+                <div class="quiz-box-center">
+                    <textarea placeholder="" class="prompt"></textarea>
+                </div>
+                <div class="quiz-box-end">
+                    <button class="quiz-btn">Generate quizzes</button>
                 </div>
               </div>
-              <div class="notes-sreachBox">
-                  <input type="text" class="serach-box-notes" placeholder="Serach Notes">
+              <div class="question-box">
+                <div class="questions-head">
+                    <p class="live-q-number">Question 1 to 5</p>
+                </div>
+                <div class="question-show">
+                    <h4 class="question-name">What is the purpose of the useEffect hook in React? </h4>
+                </div>
+                <div class="options-box">
+                
+                </div>
               </div>
-              <div class="notes-show">
-                    
-                    
-                </div>   
-                <!-- </div>
-              </div> -->
             </main>
             </div>
         </div>
     </body>
     <script type="module" src="/Js/dashbord.js"></script>
-     <script type="module" src="/Js/notes.js"></script>
+     <script type="module" src="/Js/quiz.js"></script>
 </html>

@@ -7,8 +7,9 @@ let NotesPhag = document.querySelector(".notes-big-text");
 let savenotesBtn = document.querySelector(".save-notes");
 let showInout = document.querySelector(".addNotesbtn");
 let totalnoteslenght = document.querySelector(".total-notes-lenght");
+let dashbordnotesnumber = document.getElementById("notes-total-number");
 let NotesBox = document.querySelector(".notes-show");
-let notes = JSON.parse(localStorage.getItem('mynotes')) || [];
+export let notes = JSON.parse(localStorage.getItem('mynotes')) || [];
 let deitals_close_btn_backup = notesInputBox.innerHTML;
 
 const restoreBackupAndEvents = () => {
@@ -60,6 +61,7 @@ savenotesBtn.addEventListener("click", savenotesdata);
 const displayNotes = () => {
     NotesBox.innerHTML = ""; 
     totalnoteslenght.innerText = notes.length + " notes found";
+   
     notes.forEach((data, index) => {
         NotesBox.innerHTML += `<div class="notes-list" data-index="${index}">
                         <div class="note-list-head">

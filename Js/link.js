@@ -2,7 +2,7 @@ let Text_Link_Input = document.getElementById("link-title");
 let Link_Input = document.getElementById("link-input");
 let Save_links_Btn = document.querySelector(".save-link");
 let Show_links_box = document.querySelector(".show-link-main-bo");
-let links = JSON.parse(localStorage.getItem('mylinks')) || [];
+export let links = JSON.parse(localStorage.getItem('mylinks')) || [];
 
 Save_links_Btn.addEventListener("click",()=>{
     if(Text_Link_Input.value === "" && Link_Input.value === ""){
