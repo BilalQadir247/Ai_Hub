@@ -42,7 +42,7 @@
     display: flex;
     flex-direction: column;
     gap: 17px;
-    margin-left: 41px;
+    margin-left: 35px;
     text-align: start;
     list-style: none;
 }
@@ -251,6 +251,13 @@
     width: 100% !important;
         left: 0px !important;
         top: 127px !important;
+}
+.chat-box{
+    margin-top: 765px !important;
+}
+.chat-box div{
+    width: 100% !important;
+    height: 350px !important;
 }
 }
 .main{
@@ -1090,4 +1097,60 @@ body::-webkit-scrollbar {
     flex-direction: column;
     justify-content: start;
     padding: 10px;
+}
+
+/* chart-box */
+.chat-box{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    margin-top: 245px;
+    height: auto;
+    background-color: transparent;
+}
+.totalTasksChart{
+    width: 48%;
+    height: 400px;
+     background:#1e293b;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+.completeTasksChart{
+    width: 48%;
+    height: 400px;
+     background:#1e293b;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+.notesChart{
+     background:#1e293b;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    width: 48%;
+    height: 400px;
+}
+.linkChart{
+    width: 48%;
+    height: 400px;
+     background:#1e293b;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+.sourceChart{
+    width: 99% !important;
+     background:#1e293b;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    height: 400px !important;
+}
+.quizChart{
+    width: 48%;
+    height: 400px;
+    background:#1e293b;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
 }

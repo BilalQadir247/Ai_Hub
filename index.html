@@ -20,11 +20,11 @@
             </div>
             <div class="pages-link">
                 <ul class="list-manue">
-                    <li><a href="index.html">Dashboard</a></li>
-                    <li><a href="/pages/todo.html">Todo</a></li>
-                    <li><a href="/pages/notes.html">Notes</a></li>
-                    <li><a href="/pages/Links.html">Links</a></li>
-                    <li><a href="/pages/quiz.html">Quiz</a></li>
+                    <li><a href="index.html"> <i class="fa-regular fa-gauge"></i> Dashboard</a></li>
+                    <li><a href="/pages/todo.html"> <i class="fas fa-tasks"></i>  Tasks</a></li>
+                    <li><a href="/pages/notes.html">  <i class="fas fa-sticky-note"></i> Notes</a></li>
+                    <li><a href="/pages/Links.html"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Links</a></li>
+                    <li><a href="/pages/quiz.html">  <i class="fas fa-clipboard-list"></i> Quiz</a></li>
                 </ul>
             </div>
            </aside>
@@ -51,7 +51,7 @@
                 <div class="box-1">
                   <div class="inner-box-1">
                     <p>Total Task</p>
-                    <h3 class="total-task-number">29</h3>
+                    <h3 class="total-task-number">0</h3>
                   </div>
                   <div class="inner-box-2">
                     <i class="fas fa-tasks"></i>
@@ -60,7 +60,7 @@
                 <div class="box-1">
                    <div class="inner-box-1">
                     <p>Complete Task</p>
-                    <h3 class="Complete-task">29</h3>
+                    <h3 class="Complete-task">0</h3>
                    </div>
                    <div class="inner-box-2">
                      <i class="fas fa-tasks"></i>
@@ -69,7 +69,7 @@
                 <div class="box-1">
                    <div class="inner-box-1">
                     <p>Total Notes</p>
-                    <h3 class="notes-all">29</h3>
+                    <h3 class="notes-all">0</h3>
                    </div>
                    <div class="inner-box-2">
                   <i class="fas fa-sticky-note"></i>
@@ -78,7 +78,7 @@
                 <div class="box-1">
                    <div class="inner-box-1">
                     <p>Total Links</p>
-                    <h3 class="Allinks">29</h3>
+                    <h3 class="Allinks">0</h3>
                    </div>
                    <div class="inner-box-2">
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -87,27 +87,37 @@
                 <div class="box-1">
                    <div class="inner-box-1">
                     <p>Total Quiz Ask</p>
-                    <h3 class="quiz-Ask">29</h3>
+                    <h3 class="quiz-Ask">0</h3>
                    </div>
                    <div class="inner-box-2">
-                    <i class="fa-solid fa-circle-question"></i>
+                    <i class="fas fa-clipboard-list"></i>
                    </div> 
                 </div>
-                 <div class="box-1">
-                    <div class="inner-box-1">
-                        <p>Total Task</p>
-                        <h3>29</h3>
-                    </div>
-                    <div class="inner-box-2">
-                        <i class="fas fa-tasks"></i>
-                    </div>
-                </div>
-                
-                
+             </div>
+             <div class="chat-box">
+               <div class="totalTasksChart">
+                  <canvas id="totalTaskChart"></canvas>
+              </div>
+              <div class="completeTasksChart">
+               <canvas id="completedTaskChart"></canvas>
+             </div>
+             <div class="notesChart">
+               <canvas id="notesChart"></canvas>
+             </div>
+              <div  class="linkChart">
+                <canvas id="linkChart"></canvas>
+             </div>
+              <div  class="sourceChart">
+               <canvas id="sourceChart"></canvas>
+            </div>
+            <div  class="quizChart">
+              <canvas id="quizChart"></canvas>
+            </div>
              </div>
             </main>
             </div>
         </div>
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script type="module" src="/Js/dashbord.js"></script>
 </html>
