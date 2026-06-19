@@ -2,7 +2,7 @@
   <h1>🚀 Bilal AI Hub</h1>
   <p><strong>An All-in-One Productivity & AI-Powered Platform</strong></p>
   <p>
-    <a href="YOUR_LIVE_NETLIFY_OR_VERCEL_LINK_HERE" target="_blank"><strong>🌐 Live Demo</strong></a> •
+    <a href="https://bilal-ai-hub.netlify.app/" target="_blank"><strong>🌐 Live Demo</strong></a> •
     <a href="#features">Features</a> •
     <a href="#screenshots">Screenshots</a> •
     <a href="#installation">Installation</a> •
@@ -89,4 +89,4 @@ You only need a modern web browser to run this project.
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/bilal-ai-hub.git](https://github.com/your-username/bilal-ai-hub.git)
+   git clone [https://github.com/BilalQadir247/Ai_Hub.git]
