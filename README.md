@@ -20,7 +20,7 @@
 ## 🌐 Live Link
 
 Live Demo:
-👉 **[Click Here to View Live Project](YOUR_LIVE_NETLIFY_OR_VERCEL_LINK_HERE)**
+👉 **[Click Here to View Live Project](https://bilal-ai-hub.netlify.app/)**
 
 ---
 
@@ -42,31 +42,31 @@ Here is a visual tour of the **Bilal AI Hub** interface:
   <tr>
     <td width="50%" align="center">
       <h3>🎛️ Main Dashboard</h3>
-      <img src="YOUR_DASHBOARD_IMAGE_URL_HERE" alt="Dashboard" width="100%" style="border-radius: 8px;" />
+      <img src="https://github.com/BilalQadir247/Ai_Hub/issues/1#issue-4700689118" alt="Dashboard" width="100%" style="border-radius: 8px;" />
     </td>
     <td width="50%" align="center">
       <h3>📊 Dashboard Analytics / Graphics</h3>
-      <img src="YOUR_DASHBOARD_GRAPHIC_IMAGE_URL_HERE" alt="Dashboard Graphics" width="100%" style="border-radius: 8px;" />
+      <img src="https://github.com/BilalQadir247/Ai_Hub/issues/1#issue-4700689118" alt="Dashboard Graphics" width="100%" style="border-radius: 8px;" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
       <h3>✅ Task Management (To-Do)</h3>
-      <img src="YOUR_TASK_IMAGE_URL_HERE" alt="Task Manager" width="100%" style="border-radius: 8px;" />
+      <img src="https://github.com/BilalQadir247/Ai_Hub/issues/1#issue-4700689118" alt="Task Manager" width="100%" style="border-radius: 8px;" />
     </td>
     <td width="50%" align="center">
       <h3>🔗 Link Saver</h3>
-      <img src="YOUR_LINK_IMAGE_URL_HERE" alt="Link Saver" width="100%" style="border-radius: 8px;" />
+      <img src="https://github.com/BilalQadir247/Ai_Hub/issues/1#issue-4700689118" alt="Link Saver" width="100%" style="border-radius: 8px;" />
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
       <h3>📝 Notes Application</h3>
-      <img src="YOUR_NOTES_IMAGE_URL_HERE" alt="Notes App" width="100%" style="border-radius: 8px;" />
+      <img src="https://github.com/BilalQadir247/Ai_Hub/issues/1#issue-4700689118" alt="Notes App" width="100%" style="border-radius: 8px;" />
     </td>
     <td width="50%" align="center">
       <h3>🤖 AI Custom Quiz</h3>
-      <img src="YOUR_QUIZ_IMAGE_URL_HERE" alt="AI Quiz" width="100%" style="border-radius: 8px;" />
+      <img src="https://github.com/BilalQadir247/Ai_Hub/issues/1#issue-4700689118" alt="AI Quiz" width="100%" style="border-radius: 8px;" />
     </td>
   </tr>
 </table>
