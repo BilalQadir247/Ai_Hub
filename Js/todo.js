@@ -122,11 +122,11 @@ const render = () => {
 
         let big = taskDetails.querySelector(".difficulty");
         if (currentTask.difficulty === "Easy") {
-            big.style.backgroundColor = "#1e3d40"; big.style.color = "#20c15e";
+            big.style.backgroundColor = ""; big.style.color = "#20c15e";
         } else if (currentTask.difficulty === "Medium") {
-            big.style.backgroundColor = "#393835"; big.style.color = "#f59e0e";
+            big.style.backgroundColor = ""; big.style.color = "#f59e0e";
         } else if (currentTask.difficulty === "Hard") {
-            big.style.backgroundColor = "#382d3d"; big.style.color = "#ef4442";
+            big.style.backgroundColor = ""; big.style.color = "#ef4442";
         }
 
         let taskDelete = taskDetails.querySelector(".task-delete");
